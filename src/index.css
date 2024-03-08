@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.videoBox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+  gap: 30px;
+  padding: 20px;
+}
+
+.videoBoxLeft {
+  width: 100vw;
+  height: 70vh;
+}
+
+.videoBoxLeft video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.videoBoxRight {
+  /* height: 100vh; */
+}
+
+.videoCard {
+  width: 380px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.videoCard video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
