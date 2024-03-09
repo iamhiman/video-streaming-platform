@@ -6,6 +6,8 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
+    "plugin:import/recommended",
+    "eslint-config-prettier",
   ],
   ignorePatterns: ["dist", ".eslintrc.cjs"],
   parserOptions: { ecmaVersion: "latest", sourceType: "module" },
@@ -14,6 +16,9 @@ module.exports = {
   rules: {
     "no-unused-vars": "warn",
     "react/prop-types": "off",
+    "react/jsx-no-target-blank": "off",
     "react-refresh/only-export-components": ["warn", { allowConstantExport: true }],
+    "react/react-in-jsx-scope": "off",
+    "import/no-named-as-default": "off",
   },
 };

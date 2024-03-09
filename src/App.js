@@ -1,14 +1,15 @@
 import { Fragment } from "react";
-import { Home } from "./pages/Home";
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { VideoStreamingLayout } from "./pages/VideoStreamingLayout";
+import { VideoRecorderLayout } from "./pages/VideoRecorderLayout";
 
 const App = () => {
   return (
     <Fragment>
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/videoRecorder" element={<>Hello</>} />
+          <Route path="/" element={<VideoStreamingLayout />} />
+          <Route path="/videoRecorder" element={<VideoRecorderLayout />} />
         </Routes>
       </Router>
     </Fragment>
