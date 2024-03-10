@@ -50,7 +50,7 @@ export const VideoStreamingLayout = () => {
         </div>
         <div className="videoBoxRight">
           {videoUrls.slice(1).map(url => (
-            <div key={url.id} id={`videoCard-${url}`} className="videoCard">
+            <div key={url.id} className="videoCard">
               <HLSWrapper controls={true} videoUrl={url.url} onPlay={() => onPlayNewVideo(url)} />
             </div>
           ))}
