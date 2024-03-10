@@ -6,15 +6,6 @@ export const videoUrlsList = [
     id: uuidv4(),
     url: "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8",
   },
-  {
-    id: uuidv4(),
-    url: "https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8",
-  },
-  {
-    id: uuidv4(),
-    url: "https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.mp4/.m3u8",
-  },
-  { id: uuidv4(), url: "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8" },
   { id: uuidv4(), url: "https://assets.afcdn.com/video49/20210722/v_645516.m3u8" },
   {
     id: uuidv4(),
