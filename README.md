@@ -1,8 +1,10 @@
-# React + Vite
+# Video Streaming Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### This is a video streaming platform in React using HLS (Http Live Streaming) Protocol. It uses [react-hls-player](https://www.npmjs.com/package/react-hls) library to stream the videos.
 
-Currently, two official plugins are available:
+Installation
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Install dependencies using `npm install ----legacy-peer-deps` (--legacy-peer-deps option should be used while installation as react-hls-player package is built on top of React 16.8 so it throws an error with compatibiltiy issue for react 18)
+- Run the app using `npm run dev`
+
+
